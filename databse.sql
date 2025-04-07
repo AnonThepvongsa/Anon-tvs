@@ -19,7 +19,7 @@ CREATE TABLE
         updated_at TIMESTAMP NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP
     );
 
-use finaljs;
+use finaljs;  
 
 DELIMITER // 
 

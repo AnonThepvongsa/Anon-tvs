@@ -18,7 +18,7 @@ const dbPool = mysql.createPool({
   database: "finaljs",
   waitForConnections: true,
   connectionLimit: 10,
-  queueTimeout: 0,
+  
 });
 
 // Middleware to make the database pool available in request objects
